@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import micaniLabsLogo from "./micani-labs.svg";
 import iiinigenceLogo from "./iii.png";
 import voidLogo from "./void.svg";
