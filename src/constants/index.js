@@ -15,10 +15,6 @@ import {
 	git,
 	figma,
 	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
 	carrent,
 	jobit,
 	tripguide,
@@ -26,7 +22,11 @@ import {
 	micaniLabsLogo,
 	iiinigenceLogo,
 	voidLogo,
-	upworkLogo,
+	voiceFirst,
+	lootcoper,
+	thesia,
+	daperformers,
+	sonata,
 } from "../assets";
 
 export const navLinks = [
@@ -120,11 +120,24 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "Full Stack Developer",
+		company_name: "Voice First LLC",
+		icon: voiceFirst,
+		iconBg: "#fff",
+		date: "March 2022 - April 2024",
+		points: [
+			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
+	{
 		title: "Next.js Developer",
 		company_name: "Micani Labs",
 		icon: micaniLabsLogo,
 		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		date: "March 2022 - April 2024",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -137,7 +150,7 @@ const experiences = [
 		company_name: "IIINIGENCE",
 		icon: iiinigenceLogo,
 		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		date: "Dec 2020 - Feb 2022",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -147,10 +160,10 @@ const experiences = [
 	},
 	{
 		title: "Web Developer",
-		company_name: "Shopify",
+		company_name: "Void",
 		icon: voidLogo,
 		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		date: "Jan 2018 - Nov 2020",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -160,10 +173,10 @@ const experiences = [
 	},
 	{
 		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: upworkLogo,
-		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		company_name: "Lootcopter Studio",
+		icon: lootcoper,
+		iconBg: "#d64b3c",
+		date: "Jan 2016 - Dec 2018",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -199,67 +212,67 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Thesia Character",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Thesia is an application for human-like interaction with a wide array of AI charactersThesia is an application for human-like interaction with a wide array of AI characters. Thesia Character boasts an extensive character library, and you have the power to create characters to your liking.",
 		tags: [
 			{
-				name: "react",
+				name: "React JS",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "Firebase",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "Tailwind CSS",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: thesia,
+		source_code_link: "https://thesia.ai/character",
 	},
 	{
-		name: "Job IT",
+		name: "Daperformers ",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Da Performers is a cutting-edge digital collectibles platform featuring unique NFTs that represent various characters on the blockchain. Each NFT grants the owner exclusive intellectual property rights to their character.",
 		tags: [
 			{
-				name: "react",
+				name: "next js",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "django",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "Tailwind CSS",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: daperformers,
+		source_code_link: "https://www.daperformers.com/",
 	},
 	{
-		name: "Trip Guide",
+		name: "Sonata Tips",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"Developed a cutting-edge Web3 music sharing platform called Wrapcast. This innovative application leverages the capabilities of Next.js to provide a seamless user experience for music enthusiasts. ",
 		tags: [
 			{
 				name: "nextjs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "Django",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "Tailwind CSS",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: sonata,
+		source_code_link: "https://www.sonata.tips/",
 	},
 ];
 

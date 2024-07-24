@@ -34,6 +34,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import voiceFirst from "./notes.jpg";
+import lootcoper from "./lootcopter.jpeg";
+import thesia from "./thesia.png";
+import daperformers from "./daperformers.png";
+import sonata from "./sonata.png";
+
 export {
 	logo,
 	backend,
@@ -67,4 +73,9 @@ export {
 	iiinigenceLogo,
 	voidLogo,
 	upworkLogo,
+	voiceFirst,
+	lootcoper,
+	thesia,
+	daperformers,
+	sonata,
 };
