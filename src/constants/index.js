@@ -15,9 +15,6 @@ import {
 	git,
 	figma,
 	docker,
-	carrent,
-	jobit,
-	tripguide,
 	threejs,
 	micaniLabsLogo,
 	iiinigenceLogo,
@@ -37,10 +34,6 @@ export const navLinks = [
 	{
 		id: "work",
 		title: "Work",
-	},
-	{
-		id: "contact",
-		title: "Contact",
 	},
 ];
 
